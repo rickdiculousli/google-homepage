@@ -1,0 +1,76 @@
+body {
+-webkit-appearance: none;
+}
+
+div{
+
+	display: block;
+}
+
+.center {
+	margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+img.logo {
+	display: block;
+    margin: 0 auto;
+}
+
+input.bar{
+	display: block;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px;
+    width: 403px;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+input:focus {outline: none; }
+
+div.buttons {
+	height: 40px;
+    width: 400px;
+    margin: 0 auto;    
+    text-align: center;
+    position: relative;
+}
+
+.searchBtn {
+	 display: inline-block;
+     height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+.searchBtn:hover{
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.navBar{
+	background: blue;
+	height: 30px;
+    margin-top: 10px;
+}
+
+.navBar .left{
+	background: yellow;
+}
+.navBar .right{
+	background: orange;
+}
