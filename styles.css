@@ -63,14 +63,68 @@ div.buttons {
 }
 
 .navBar{
-	background: blue;
 	height: 30px;
     margin-top: 10px;
 }
 
 .navBar .left{
-	background: yellow;
+	height: 30px;
+    width: 100px;
+    display: inline-block;
 }
 .navBar .right{
-	background: orange;
+	height: 30px;
+    width: 300px;
+    display: inline-block;
+}
+
+.navBar a {
+	padding-left: 5px;
+}
+
+.navBar .text{
+	height: 20px !important; 
+	padding: 10px 0px 0px 0px;
+	text-align: right;
+	display:inline-block;
+}
+
+.navBar .right .text {
+ 	 width: 120px;
+}
+
+.navBar .right .images{
+	display: inline-block;
+}
+
+.optionsB {
+ 	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+.noteB {
+	display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+   	margin-left: 12px;
+}
+.notePic {
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	background-size: 528px 68px;
+	background-position: -194px -21px;
+	background-color: rgba(0,0,0,.55);
+	line-height: 20px;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
